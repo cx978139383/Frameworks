@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios,"9.0"
   spec.requires_arc = true 		#是否使用ARC
-  spec.source_files  = "Jonas_Category/**"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+  spec.source_files  = "SRC/**/*.{h,m,plist}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
  
   spec.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
   spec.module_name = 'Jonas_Category'                #模块名称
