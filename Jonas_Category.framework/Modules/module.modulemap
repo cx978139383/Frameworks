@@ -1,0 +1,6 @@
+framework module Jonas_Category {
+  umbrella header "Jonas_Category.h"
+
+  export *
+  module * { export * }
+}
